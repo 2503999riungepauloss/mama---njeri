@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>2503999riungepauloss</title>
+<style>
+  :root { color-scheme: light dark; --bg: #fff; --fg: #222; --line: #ccc; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #181818; --fg: #eee; --line: #444; } }
+  :root[data-theme="dark"] { --bg: #181818; --fg: #eee; --line: #444; }
+  body { font-family: Arial, sans-serif; margin: 0; color: var(--fg); background: var(--bg); padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+  header, section, footer { padding: 20px; max-width: 800px; margin: 0 auto; }
+  nav a { margin-right: 12px; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border: 1px solid var(--line); padding: 8px; text-align: left; }
+  .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; }
+  .gallery img { width: 100%; height: auto; display: block; }
+  form label, form select, form button { display: block; margin: 8px 0; }
+</style>
+</head>
+<body>
+<header>
+  <h3>2503999riungepauloss</h3>
+  <nav><a href="#menu">Menu</a> <a href="#order">Order</a> <a href="#visit">Visit</a></nav>
+</header>
+
+<section>
+  <h2>Fresh Kenyan food, cooked daily</h2>
+</section>
+
+<section id="menu">
+  <h4>Menu</h4>
+  <table>
+    <thead><tr><th>Dish</th><th>Price</th></tr></thead>
+    <tbody>
+      <tr><td>Pilau</td><td>KES 350</td></tr>
+      <tr><td>Ugali &amp; Sukuma</td><td>KES 250</td></tr>
+      <tr><td>Chapati (2)</td><td>KES 100</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="order">
+  <h4>Place an order</h4>
+  <form onsubmit="event.preventDefault(); alert('Order sent!');">
+    <select name="dish">
+      <option>Pilau</option>
+      <option>Ugali &amp; Sukuma</option>
+      <option>Chapati (2)</option>
+    </select>
+    <button type="submit">Send order</button>
+  </form>
+</section>
+
+<section>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=300" alt="Kenyan food">
+    <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300" alt="Fresh food">
+    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=300" alt="Food plate">
+  </div>
+</section>
+
+<section id="visit">
+  <h4>Opening hours and contact</h4>
+  <div>
+    <p>Monday - Saturday: 8:00 AM - 9:00 PM</p>
+    <p>Sunday: 10:00 AM - 6:00 PM</p>
+    <p>Location: Nairobi, Kenya</p>
+    <p>Phone: 0712 345 678</p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 Mama Njeri's Kitchen</p>
+</footer>
+</body>
+</html>
